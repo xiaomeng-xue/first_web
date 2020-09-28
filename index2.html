@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--seach bar-->
+        <div class="container">
+            <div class="search-name-wrapper">
+                <input onkeydown="return myclickText(event)"
+                    type="text"
+                    name="searchNameBar"
+                    id="searchNameBar"
+                    placeholder="search for Name"
+                />
+                <button type="button" id="searchText" onclick="getSearchObj()">Search</button>
+            </div>
+            <div class="serach-number-wrapper">
+                <input
+                onkeydown="return myclickNumber(event)"
+                type="text" name="searchNumberBar" id="searchNumberBar" placeholder="search for number"/>
+                <button type="button">Search</button>
+            </div>
+        </div>
+
+
+            <ul id="pokemon-list">
+                <div class="group-item-wrapper">
+                    <div class="list-img-wrapper">
+
+                        <li id="01 Bulbasaur">01 Bulbasaur hahaha
+                        <img id="image" src="pokemon/1.png"></img>
+                        </li>
+
+                    </div>
+
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/2.png"></img>
+                        <li id="02 Ivysaur">02 Ivysaur</li>
+                    </div>
+
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/3.png"></img>
+                        <li id="03 Venusaur">03 Venusaur</li>
+                    </div>
+
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/4.png"></img>
+                        <li>
+                            <span id="04">04</span>
+                            <span id="Charmander">Charmander</span>
+                        </li>
+                    </div>
+
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/5.png"></img>
+                        <li>Charmeleon</li>
+                    </div>
+
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/6.png"></img>
+                        <li>Charizard</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/7.png"></img>
+                        <li>Squirtle</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/8.png"></img>
+                        <li>Wartortle</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/9.png"></img>
+                        <li>Blastoise</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/10.png"></img>
+                        <li>Caterpie</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/11.png"></img>
+                        <li>Metapod</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/12.png"></img>
+                        <li>Butterfree</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/13.png"></img>
+                        <li>Weedle</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/14.png"></img>
+                        <li>Kakuna</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/15.png"></img>
+                        <li>Beedrill</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/16.png"></img>
+                        <li>Pidgey</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/17.png"></img>
+                        <li>Pidgeotto</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/18.png"></img>
+                        <li>Pidgeot</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/19.png"></img>
+                        <li>Rattata</li>
+                    </div>
+                    <div class="list-img-wrapper">
+                        <img src="pokemon/20.png"></img>
+                        <li>Raticate</li>
+                    </div>
+
+
+                </div>
+            </ul>
+
+        <script src="main.js"></script>
+    </body>
+</html>
+    <!--search bar end>
